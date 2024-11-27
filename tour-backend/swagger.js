@@ -5,9 +5,10 @@ const swaggerAutogen = require('swagger-autogen')();
 const doc = {
     info: {
         title: 'My API', // API title
-        description: 'Description', // Short description of the API
+        description: 'API for managing tours and users', // Short description of the API
     },
-    host: 'localhost:3001', // Host URL for the API (used when running locally)
+    host: 'tour-backend-kuvb.onrender.com', // Host URL for the deployed API
+    schemes: ['https'], // Use HTTPS for secure access
 };
 
 // Specify the output file where the generated Swagger JSON will be saved

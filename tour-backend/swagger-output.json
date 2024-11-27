@@ -5,10 +5,10 @@
     "description": "API for managing tours and users",
     "version": "1.0.0"
   },
-  "host": "localhost:3001",
+  "host": "tour-backend-kuvb.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/tours/{id}": {
@@ -212,6 +212,5 @@
         }
       }
     }
-    
   }
 }
