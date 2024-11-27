@@ -31,7 +31,7 @@ The CreateTourForm component is used to allow the user to create or update a tou
 1. Clone the repository:
 
 ```bash
-  git clone https://github.com/your-username/tour-management-app.git
+  git clone https://github.com/itsrohit2904/tour-mern.git
 
 ```
 2. Install the dependencies:
